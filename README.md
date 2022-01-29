@@ -7,6 +7,7 @@ Tabela de conteúdos
        * [Meu projeto](#meu-projeto-com-coisas-aprendidas-na-aula-1)
    * [Aula 2](#aula-2)
        * [Meu projeto](#meu-projeto-com-coisas-aprendidas-na-aula-2)
+   * [Aula 3](#aula-3)
    * [Ferramentas](#tecnologias)
 <!--te-->
 # Aula 1
@@ -58,6 +59,19 @@ confirmar as informações passadas para você e medir tamanho do problema, ex: 
 ## Meu projeto com coisas aprendidas na aula 2
 ### Objetivo: relacionar a ocorrência de diabetes com alguns parâmetros de saúde, etc.
 ### Rodar: ```pip install pandas```(biblioteca de manipulação de dados), ```pip install seaborn```, ```pip install matplotlib``` e ```pip install plotly```, as 3 para criação de gráficos.
+# Aula 3
+### Desafio: você trabalha numa importadora e deve atualizar preços com  cotação dólar, ouro e euro
+### Ferramenta: selenium(instalado via pip) > permite controlar tudo do navegador: from webdriver from selenium
+- Ele precisa do web driver para fazer isso, que varia por navegador, ex: chrome(chromedriver)
+    - Baixe a versão pro seu navegador, ver versão no chrome: 3 pontos > ajuda > sobre o google chrome
+    - coloca ele onde seu python tá instalado, na pasta anaconda3 ou na pasta do seu código
+### Comparação entre as bibliotecas:
+selenium   | pytutogui
+--------- | ------
+igual em todas resoluções | muda com resolução
+usa só navegador | meche em todo o pc
+pause entre comandos automático
+### Pegar o xpath de um elemento: f11 > símbolo setinha > seleciona elemento > botão direito > copy > copy xpath
 # Tecnologias
 
 As seguintes ferramentas foram usadas na construção dos projetos:
@@ -72,3 +86,4 @@ As seguintes bibliotecas python foram usadas na construção dos projetos:
 - [Pandas](https://pypi.org/project/pandas2/)
 - [Plotly](https://pypi.org/project/plotly/)
 - [Seaborn](https://pypi.org/project/seaborn/)
+- [Selenium](https://pypi.org/project/selenium/)
