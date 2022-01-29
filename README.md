@@ -8,6 +8,7 @@ Tabela de conteúdos
    * [Aula 2](#aula-2)
        * [Meu projeto](#meu-projeto-com-coisas-aprendidas-na-aula-2)
    * [Aula 3](#aula-3)
+       * [Meu projeto](#meu-projeto-com-coisas-aprendidas-na-aula-3)
    * [Ferramentas](#tecnologias)
 <!--te-->
 # Aula 1
@@ -72,6 +73,9 @@ igual em todas resoluções | muda com resolução
 usa só navegador | meche em todo o pc
 pause entre comandos automático
 ### Pegar o xpath de um elemento: f11 > símbolo setinha > seleciona elemento > botão direito > copy > copy xpath
+## Meu projeto com coisas aprendidas na aula 3
+### Objetivo: ver se na Amazon certo produto está mais barato que certo valor
+### Rodar: Baixar web driver pro seu navegador e ```pip install selenium```
 # Tecnologias
 
 As seguintes ferramentas foram usadas na construção dos projetos:
