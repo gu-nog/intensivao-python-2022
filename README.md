@@ -10,6 +10,7 @@ Tabela de conteúdos
    * [Aula 3](#aula-3)
        * [Meu projeto](#meu-projeto-com-coisas-aprendidas-na-aula-3)
    * [Aula 4](#aula-4)
+       * [Meu projeto](#meu-projeto-com-coisas-aprendidas-na-aula-4)
    * [Ferramentas](#tecnologias)
 <!--te-->
 # Aula 1
@@ -113,6 +114,9 @@ pause entre comandos automático
   - Funcionamento regressão linear: tenta achar a melhor linha que se aproxima mais de um gráfico com os inputs
   - Árvore de decisões: fica tipo fazendo perguntas/condições, tipo cara a cara, para conseguir separar o conjunto de dados da melhor forma
 - Entenda, com inteligência artificial você não quer o modelo perfeito, mas um que supera suas necessidades
+## Meu projeto com coisas aprendidas na aula 4
+### Objetivo: Prever se uma pessoa conseguirá certo empréstimo ou não
+
 # Tecnologias
 
 As seguintes ferramentas foram usadas na construção dos projetos:
