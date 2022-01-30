@@ -9,6 +9,7 @@ Tabela de conteúdos
        * [Meu projeto](#meu-projeto-com-coisas-aprendidas-na-aula-2)
    * [Aula 3](#aula-3)
        * [Meu projeto](#meu-projeto-com-coisas-aprendidas-na-aula-3)
+   * [Aula 4](#aula-4)
    * [Ferramentas](#tecnologias)
 <!--te-->
 # Aula 1
@@ -76,6 +77,42 @@ pause entre comandos automático
 ## Meu projeto com coisas aprendidas na aula 3
 ### Objetivo: ver se na Amazon certo produto está mais barato que certo valor
 ### Rodar: Baixar web driver pro seu navegador e ```pip install selenium```
+# Aula 4
+### Tema: Ciências de dados(usar dados para resolver problemas)
+- IA é só uma parte(um código que faz algo inteligente)
+### Desafio: prever as vendas, baseado em investimento em marketing
+### Passos da ciência de dados:
+- 1: entender o desafio/empresa(interfere em futuras decisões)
+- 2: pegar e limpar/tratar os dados (OBS: até aqui já vimos em aulas passadas)
+- 3: análise
+    - exploratória
+    - talvez usar inteligência artificial
+    - ver / entender os resultados
+### Principais bibliotecas de gráficos em python:
+- seaborn(mostra os gráficos com a matplotlib)
+- matplotlib
+- pyplot
+### Análise exploratória: entender a correlação entre as informações
+- Ela pode ser positiva: as 2 informações analisadas sobem quando a outra sobe
+- Negativa: quando uma informação sobe, a outra desce
+- Varia de -1-0-1: sendo que, quanto mais longe do 0, maior a correlação
+- Alta correlação: geralmente, de 0.7 ou -0.7 para cima ou para baixo, já é uma correlação bem alta
+### OBS: geralmente para olhar a correlação, plotamos ela em um heatmap
+### Inteligência artificial / Machine Learning
+### Etapas obrigatórias: treino e teste
+### Passos:
+- 1: separar os dados em treino e teste, sendo:
+  - x: input/dados uados
+  - y: output/objetivo
+- 2: criar o modelo/instanciá-lo
+- 3: treinar o modelo com os dados de treino
+- 4: medir a acurácia do nosso modelo, usando os dados para teste
+- 5: fazer novas previsões
+### Observações de IA:
+- Existem MUITOS modelos de ML, mas 2 bem usados, que usamos, são o de regressão linear e o de random forest/árvores de decisões aleatórias
+  - Funcionamento regressão linear: tenta achar a melhor linha que se aproxima mais de um gráfico com os inputs
+  - Árvore de decisões: fica tipo fazendo perguntas/condições, tipo cara a cara, para conseguir separar o conjunto de dados da melhor forma
+- Entenda, com inteligência artificial você não quer o modelo perfeito, mas um que supera suas necessidades
 # Tecnologias
 
 As seguintes ferramentas foram usadas na construção dos projetos:
@@ -91,3 +128,4 @@ As seguintes bibliotecas python foram usadas na construção dos projetos:
 - [Plotly](https://pypi.org/project/plotly/)
 - [Seaborn](https://pypi.org/project/seaborn/)
 - [Selenium](https://pypi.org/project/selenium/)
+- [Scikit-learn](https://pypi.org/project/scikit-learn/)
